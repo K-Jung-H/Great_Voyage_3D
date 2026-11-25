@@ -1,0 +1,49 @@
+# Unity generated project data
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.utmp/
+
+# IDE-generated workspace files
+/.vs/
+/.vscode/
+/.idea/
+/.consulo/
+*.csproj
+*.sln
+*.slnx
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.booproj
+*.opendb
+*.VC.db
+*.tmp
+*.svd
+*.pdb
+*.mdb
+
+# Player builds and diagnostics
+*.apk
+*.aab
+*.unitypackage
+*.app
+sysinfo.txt
+crashlytics-build.properties
+/[Aa]ssets/StreamingAssets/aa/
+/[Aa]ssets/StreamingAssets/aa.meta
+**/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Local downloads and operating-system files
+/References/
+.DS_Store
+Thumbs.db
+Desktop.ini
