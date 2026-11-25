@@ -1,0 +1,14 @@
+#pragma kernel SampleSurface
+#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+#include "DwtSynthesis.hlsl"
+StructuredBuffer<float2> _ContactPositions;
+RWStructuredBuffer<float> _ContactHeights;
+int _ContactCount;
+[numthreads(32,1,1)]
+void SampleSurface(uint id : SV_DispatchThreadID)
+{
+    if (id >= (uint)_ContactCount) return;
+    float variance;
+    _ContactHeights[id] = DwtHeight(_ContactPositions[id],
+        float2(_MeshSpacing,0),float2(0,_MeshSpacing),variance);
+}

@@ -1,0 +1,8 @@
+_Exemplar: 512x512, RGBAHalf, mip=10, red=[-1.924805, 1.892578]
+_Profile: 512x512, RGBAHalf, mip=10, red=[-1, 0.9960938]
+DWT signed data and shader validation passed.
+GPU samples: 1024; range=[-1.99395,2.05754] m
+Repeat max error=0; temporal RMS delta (2s)=1.43384 m
+Fine RMS=0.83038 m; 64m footprint RMS=0.02320 m
+Zero profile range=[-0.010501,-0.010501] m
+PASS: finite heights, deterministic evaluation, animated waves, mip attenuation, flat zero-profile.
